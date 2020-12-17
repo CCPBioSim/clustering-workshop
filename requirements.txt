@@ -1,0 +1,6 @@
+numpy
+scipy
+mdtraj
+mdplus
+rlcluster
+matplotlib
