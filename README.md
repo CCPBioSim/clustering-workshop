@@ -1,12 +1,20 @@
-# clustering-workshop
+# CCPBioSim Clustering Workshop
 
-Cluster analysis is a popular and useful approach for the investigation and interpretation of molecular dynamics simulation data. This tutorial/workshop illustrates the application of a variety of clustering methods to an MD trajectory, comparing their performance.
+[![build](https://github.com/ccpbiosim/clustering-workshop/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/clustering-workshop/actions/workflows/build.yaml)
 
-## Requirements
-A basic knowledge of Python and MD simulation methods
+## Docker
 
-## Training material
-A Jupyter notebook and associated data files
+This container is derived from the CCPBioSim JupyterHub image. This container
+adds the necessary software packages and notebook content to form a deployable
+course container. The source content for this course can be found at
+https://github.com/CCPBioSim/clustering-workshop
+
+## How to Use
+
+In our containers we are using the JupyterHub default port 8888, so you should
+forward this port when deploying locally::
+
+    docker run -p 8888:8888 ghcr.io/jimboid/biosim-clustering-workshop:latest
 
 ## Contact
 Please direct all comments and queries to [Charlie Laughton](mailto:charles.laughton@nottingham.ac.uk)
