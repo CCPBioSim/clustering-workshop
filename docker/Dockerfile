@@ -12,7 +12,7 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN conda install matplotlib numpy scipy ipywidgets -y
+RUN mamba install matplotlib numpy scipy ipywidgets -y
 RUN pip install mdplus mdtraj rlcluster
 
 # Get workshop files and move them to jovyan directory.
