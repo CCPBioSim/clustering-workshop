@@ -14,7 +14,7 @@ https://github.com/CCPBioSim/clustering-workshop
 In our containers we are using the JupyterHub default port 8888, so you should
 forward this port when deploying locally::
 
-    docker run -p 8888:8888 ghcr.io/jimboid/biosim-clustering-workshop:latest
+    docker run -p 8888:8888 ghcr.io/ccpbiosim/clustering-workshop:latest
 
 ## Contact
 Please direct all comments and queries to [Charlie Laughton](mailto:charles.laughton@nottingham.ac.uk)
