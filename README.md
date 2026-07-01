@@ -9,7 +9,7 @@ This workshop source repository contains the build recipe for a docker container
 
 ## How to Use
 
-This training course is deployed on the [CCPBioSim](www.ccpbiosim.ac.uk) website via our cloud infrastructure, however you can deploy on your own machine with docker.
+This training course is deployed on the [CCPBioSim](www.ccpbiosim.org) website via our cloud infrastructure, however you can deploy on your own machine with docker.
 
 Pull the container from our repository::
 
