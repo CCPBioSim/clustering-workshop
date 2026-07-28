@@ -1,7 +1,7 @@
 # CCPBioSim Clustering Workshop
 
 [![ci](https://github.com/ccpbiosim/clustering-workshop/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/clustering-workshop/actions/workflows/build.yaml)
-[![latest](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fccpbiosim.github.io%2Fworkshop.json&query=%24.containers.clustering-workshop.latest&labelColor=grey&logo=github&logoColor=white&label=latest&color=purple)](https://github.com/ccpbiosim/clustering-workshop/pkgs/container/clustering-workshop)
+[![latest](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fccpbiosim.github.io%2Fassets.json&query=%24.containers.clustering-workshop.latest&labelColor=grey&logo=github&logoColor=white&label=latest&color=purple)](https://github.com/ccpbiosim/clustering-workshop/pkgs/container/clustering-workshop)
 [![issues](https://img.shields.io/github/issues/ccpbiosim/clustering-workshop?logo=github&labelColor=grey)](https://github.com/CCPBioSim/clustering-workshop/issues)
 [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/clustering-workshop?logo=github&labelColor=grey)](https://github.com/CCPBioSim/clustering-workshop/pulls)
 
