@@ -9,8 +9,15 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN mamba install matplotlib numpy scipy ipywidgets -y
-RUN pip install mdplus mdtraj rlcluster
+RUN conda install -y -c conda-forge \
+    conda-forge::matplotlib=3.11.1 \
+    conda-forge::numpy=2.5.3 \
+    conda-forge::scipy=1.18.1 \
+    conda-forge::ipywidgets=8.1.9
+RUN pip install --no-cache-dir \
+    mdtraj==1.11.1.post2 \
+    mdplus==0.1.2 \
+    rlcluster==0.0.5
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
