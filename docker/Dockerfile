@@ -15,7 +15,7 @@ RUN conda install -y -c conda-forge \
     conda-forge::scipy=1.18.1 \
     conda-forge::ipywidgets=8.1.9
 RUN pip install --no-cache-dir \
-    mdtraj==1.11.1.post2 \
+    mdtraj==1.11.2 \
     mdplus==0.1.2 \
     rlcluster==0.0.5
 
