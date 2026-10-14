@@ -11,7 +11,7 @@ WORKDIR $HOME
 # Install workshop deps
 RUN conda install -y -c conda-forge \
     conda-forge::matplotlib=3.11.2 \
-    conda-forge::numpy=2.5.3 \
+    conda-forge::numpy=2.5.4 \
     conda-forge::scipy=1.18.1 \
     conda-forge::ipywidgets=8.1.9
 RUN pip install --no-cache-dir \
